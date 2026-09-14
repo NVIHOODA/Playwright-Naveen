@@ -1,0 +1,35 @@
+# Python / Pytest cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Playwright artifacts
+test-results/
+playwright-report/
+blob-report/
+screenshots/
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# IDE settings
+.vscode/
+.idea/
+
+# macOS system files
+.DS_Store
+
+cat <<EOT >> .gitignore
+*.png
+EOT.DS_Store
+**/__pycache__/
+*.pyc
+snapshots/
+test-results/
+.DS_Store
+**/__pycache__/
+*.pyc
+snapshots/
+test-results/
