@@ -42,7 +42,10 @@ def test_verifypageurl(page: Page):
         print("========================================")
 
         home_tabs = [
+            "Home",
             "Live TV",
+            "OTT",
+            "Diwali Special",
             "Movies",
             "Series",
             "CWG 2026",
